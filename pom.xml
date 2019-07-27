@@ -34,5 +34,25 @@
             <version>4.3.4.RELEASE</version>
         </dependency>
     </dependencies>
-
+    <build>
+        <plugins>
+          <plugin>
+            <groupId>io.xc5</groupId>
+            <artifactId>xvsa-maven-plugin</artifactId>
+            <version>1.24-SNAPSHOT</version>
+            <configuration>
+              <!-- Specify the MyMojo parameter -->
+              <buildType>FULLDEBUG</buildType>
+            </configuration>
+            <executions>
+              <execution>
+                  <phase>compile</phase>
+                  <goals>
+                      <goal>gather</goal>
+                  </goals>
+              </execution>
+            </executions>
+          </plugin>
+        </plugins>
+    </build>
 </project>
