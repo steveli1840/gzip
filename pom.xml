@@ -44,7 +44,7 @@
           <plugin>
             <groupId>io.xc5</groupId>
             <artifactId>xvsa-maven-plugin</artifactId>
-            <version>1.24-SNAPSHOT</version>
+            <version>1.27-SNAPSHOT</version>
             <configuration>
               <!-- Specify the MyMojo parameter -->
               <buildType>FULLDEBUG</buildType>
