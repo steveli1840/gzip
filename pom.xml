@@ -44,19 +44,7 @@
           <plugin>
             <groupId>io.xc5</groupId>
             <artifactId>xvsa-maven-plugin</artifactId>
-            <version>1.28-SNAPSHOT</version>
-            <configuration>
-              <!-- Specify the MyMojo parameter -->
-              <!--<buildType>FULLDEBUG</buildType>-->
-            </configuration>
-            <executions>
-              <execution>
-                  <phase>pre-integration-test</phase>
-                  <goals>
-                      <goal>gather</goal>
-                  </goals>
-              </execution>
-            </executions>
+            <version>1.35-SNAPSHOT</version>
           </plugin>
         </plugins>
     </build>
